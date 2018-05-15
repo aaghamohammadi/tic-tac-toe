@@ -2,7 +2,7 @@ from pprint import pprint
 
 board_game = [['-'] * 3 for i in range(3)]
 is_finish = False
-winner = 'Player X'
+
 
 def show_board_game():
     for i in range(3):
